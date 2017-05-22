@@ -99,4 +99,4 @@ ENV/
 .idea/modules.xml
 .idea/src.iml
 .idea/workspace.xml
-.idea/
+/.idea/

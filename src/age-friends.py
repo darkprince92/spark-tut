@@ -4,7 +4,7 @@ import collections
 conf = SparkConf().setMaster("local").setAppName("AgeFrieds")
 sc = SparkContext(conf=conf)
 
-FILE_LOC = "/Users/fahim/Desktop/spark-tut/fakefriends.csv"
+FILE_LOC = "/Users/fahim/Desktop/spark-tut/data/fakefriends.csv"
 
 
 def parse_line(line):

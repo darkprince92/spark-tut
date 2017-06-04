@@ -20,3 +20,6 @@ results = total_expense.collect()
 
 for result in results:
     print("{:.2f}F".format(result[0]) + "\t" + str(result[1]))
+
+
+

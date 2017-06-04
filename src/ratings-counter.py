@@ -1,7 +1,8 @@
 from pyspark import SparkConf, SparkContext
 import collections
 
-FILE_LOC = "file:/Users/fahim/Desktop/spark-tut/data/ml-100k/u.data"
+
+FILE_LOC = "file:/Users/fahim/PycharmProjects/spark-tut/data/ml-100k/u.data"
 conf = SparkConf().setMaster("local").setAppName("RatingsHistogram")
 sc = SparkContext(conf = conf)
 

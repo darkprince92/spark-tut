@@ -1,10 +1,11 @@
 from pyspark import SparkConf, SparkContext
 import collections
+from . import config
 
 conf = SparkConf().setMaster("local").setAppName("AgeFrieds")
 sc = SparkContext(conf=conf)
 
-FILE_LOC = "/Users/fahim/Desktop/spark-tut/data/fakefriends.csv"
+FILE_LOC = config.DATA_LOCATION + "/fakefriends.csv"
 
 
 def parse_line(line):

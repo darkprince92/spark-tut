@@ -1,6 +1,8 @@
-from pyspark import SparkConf, SparkContext
 import collections
-from . import config
+
+from pyspark import SparkConf, SparkContext
+
+from src.basics import config
 
 conf = SparkConf().setMaster("local").setAppName("AgeFrieds")
 sc = SparkContext(conf=conf)
